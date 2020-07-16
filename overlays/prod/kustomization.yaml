@@ -3,6 +3,6 @@ namespace: prod
 commonLabels:
   env: prod
 bases:
-- https://github.com/agmsbush/gke-dev-to-prod-blueprints
+- https://github.com/agmsbush/gke-dev-to-prod-blueprints/resources
 patchesStrategicMerge:
 - deployment.yaml
