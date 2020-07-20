@@ -23,4 +23,4 @@ spec:
           valueFrom:
             configMapKeyRef:
               name: alpha-features
-              key: enableAlpha
+              key: ENABLE_ALPHA

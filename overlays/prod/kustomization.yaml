@@ -5,3 +5,7 @@ bases:
 - https://github.com/agmsbush/gke-dev-to-prod-blueprints/resources
 patchesStrategicMerge:
 - deployment.yaml
+configMapGenerator:
+  - name: alpha-features
+    literals:    
+    - ENABLE_ALPHA="false"
